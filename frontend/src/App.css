@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.app__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.app__info__none {
+  display: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
